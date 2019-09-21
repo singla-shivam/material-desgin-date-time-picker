@@ -1,16 +1,21 @@
 {
   "name": "dtp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Material Design Date-Time Picker",
-  "keywords": ["date picker", "time picker", "data time picker", "material dtp", "material date", "material time"],
+  "keywords": [
+    "date picker",
+    "time picker",
+    "data time picker",
+    "material dtp",
+    "material date",
+    "material time"
+  ],
   "scripts": {
-    "build": "node minify.js"
+    "build": "node minify.js && cp src/* dist"
   },
   "author": "Shivam Singla",
   "license": "ISC",
-  "dependencies": {
-    "muuri": "^0.8.0"
-  },
+  "main": "dist/dtp.min.js",
   "devDependencies": {
     "@node-minify/clean-css": "^4.1.2",
     "@node-minify/core": "^4.1.2",

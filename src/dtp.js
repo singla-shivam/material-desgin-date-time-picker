@@ -41,7 +41,7 @@
             container.classList.remove("dtp-container-hide");
             //console.log(event.target.offsetLeft, event.target.offsetTop)
             //console.log(container)
-            if(window.innerHeight - event.target.offsetTop < 380) container.style.top = (event.target.offsetTop - 368) + "px";
+            if((window.innerHeight - event.target.offsetTop < 380) && window.innerHeight >= 320) container.style.top = (event.target.offsetTop - 368) + "px";
             else container.style.top = (event.target.offsetTop + 24)  + "px"
             if(window.innerWidth - event.target.offsetLeft < 310) container.style.left = (event.target.offsetLeft - 304) + "px";
             else container.style.left = (event.target.offsetLeft + 4)  + "px"

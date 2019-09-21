@@ -1,0 +1,31 @@
+<html>
+
+<head>
+  <script type="text/javascript" src="src/dtp.js"></script>
+  <link rel="stylesheet" href="dist/dtp.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <style>
+    body {
+      background: #eee;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="dtp-date-picker">
+    <input type="text" id="date">
+    <div class="dtp-container"></div>
+  </div>
+  <div class="dtp-time-picker">
+    <input type="text" id="time">
+    <div class="dtp-container"></div>
+  </div>
+  <script>
+    new DTP().datePicker(document.getElementById("date"))
+    new DTP().timePicker(document.getElementById("time"))
+    // dtp.DTP.datePicker(document.getElementById("date"));
+    // dtp.DTP.timePicker(document.getElementById("time"))
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "md-date-time-picker",
+  "version": "1.0.0",
+  "description": "Material Design Date-Time Picker",
+  "scripts": {
+    "build": "node minify.js"
+  },
+  "author": "Shivam Singla",
+  "license": "ISC",
+  "dependencies": {
+    "muuri": "^0.8.0"
+  },
+  "devDependencies": {
+    "@node-minify/clean-css": "^4.1.2",
+    "@node-minify/core": "^4.1.2",
+    "@node-minify/google-closure-compiler": "^4.1.2"
+  }
+}

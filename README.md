@@ -12,10 +12,10 @@ Download :
 
 And include in your HTML directly
 
-```
+```html
 <link rel="stylesheet" href="path_to/dpt.min.css">
 ```
-```
+```html
 <script src="path_to/dpt.min.js"></script>
 ```
 

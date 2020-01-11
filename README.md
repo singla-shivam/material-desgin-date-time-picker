@@ -28,7 +28,7 @@ npm i dtp
 
 ## Add markup
 For date-picker
-```
+```html
 <div class="dtp-date-picker">
     <input type="text" id="DATE_PICKER_ID">
     <div class="dtp-container"></div>
@@ -36,7 +36,7 @@ For date-picker
 ```
 
 For time-picker
-```
+```html
 <div class="dtp-time-picker">
     <input type="text" id="TIME_PICKER_ID">
     <div class="dtp-container"></div>
@@ -47,28 +47,28 @@ For time-picker
 
 #### Installed by NPM:
 1. Import CSS file in your SCSS file
-```
+```scss
 @import "~dtp/dist/dtp.min.css"
 ```
 
 2. Import **DTP** object
-```
+```typescript
 //@ts-ignore
 import DTP from 'dtp'
 ```
 
 3. Instantiate date-picker
-```javascript
-new DTP().datePicker(document.getElementById("DATE_PICKER_ID));
+```typescript
+new DTP().datePicker(document.getElementById("DATE_PICKER_ID"));
 ```
 
 4. Instantiate time-picker
-```javascript
-new DTP().timePicker(document.getElementById("TIME_PICKER_ID));
+```typescript
+new DTP().timePicker(document.getElementById("TIME_PICKER_ID"));
 ```
 
 You can apply your own style:
-```css
+```scss
 --dtp-primary-light : #ff5c8d;
 --dtp-primary : #d81b60;
 --dtp-primary-dark : #a00037; 
@@ -83,7 +83,7 @@ A **change** event is dispatched when the value of input fields of date-picker a
 
 ## Authors
 
-[Shivam Singla](linkedin.com/in/singla-shivam)
+[Shivam Singla](https://linkedin.com/in/singla-shivam)
 
 
 ## License

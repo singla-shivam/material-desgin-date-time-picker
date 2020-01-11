@@ -2,7 +2,9 @@
 
 Material Design Date Time Picker is a simple and easy to use library for Date Picker in web.
 
-## Installing
+## Installation
+
+You can either directly download the files or install with npm.
 
 Download : 
 * [dtp-min.css](dist/dtp.min.css)
@@ -16,6 +18,13 @@ And include in your HTML directly
 ```
 <script src="path_to/dpt.min.js"></script>
 ```
+
+Or  
+Install with NPM
+```
+npm i dtp
+```
+
 
 ## Add markup
 For date-picker
@@ -34,24 +43,47 @@ For time-picker
 </div>
 ```
 
-## API
-Instantiate date-picker
+## Usage
+
+#### Installed by NPM:
+1. Import CSS file in your SCSS file
 ```
+@import "~dtp/dist/dtp.min.css"
+```
+
+2. Import **DTP** object
+```
+//@ts-ignore
+import DTP from 'dtp'
+```
+
+3. Instantiate date-picker
+```javascript
 new DTP().datePicker(document.getElementById("DATE_PICKER_ID));
 ```
 
-Instantiate time-picker
-```
+4. Instantiate time-picker
+```javascript
 new DTP().timePicker(document.getElementById("TIME_PICKER_ID));
 ```
 
+You can apply your own style:
+```css
+--dtp-primary-light : #ff5c8d;
+--dtp-primary : #d81b60;
+--dtp-primary-dark : #a00037; 
+--dtp-theme-surface : #fff;
+--dtp-theme-gray : rgba(179, 179, 179, 0.2);
+--dtp-cell-width : 40px;
+--dtp-cell-height : 40px;
+```
 ## Events
 
 A **change** event is dispatched when the value of input fields of date-picker and time-picker are changed.
 
 ## Authors
 
-* **Shivam Singla**
+[Shivam Singla](linkedin.com/in/singla-shivam)
 
 
 ## License

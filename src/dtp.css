@@ -6,10 +6,10 @@
     --dtp-assent-light : #9cff57;
     --dtp-assent-dark : #1faa00;*/
     --dtp-primary-light : #ff5c8d;
-    --dtp-primary : #d81b60; /*used*/
-    --dtp-primary-dark : #a00037;
-    --dtp-theme-surface : #fff; /*used*/ /*for surface*/
-    --dtp-theme-gray : rgba(179, 179, 179, 0.2); /*user*/ /*for text*/
+    --dtp-primary : #d81b60;
+    --dtp-primary-dark : #a00037; 
+    --dtp-theme-surface : #fff;
+    --dtp-theme-gray : rgba(179, 179, 179, 0.2);
     --dtp-cell-width : 40px;
     --dtp-cell-height : 40px;
 }

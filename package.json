@@ -1,6 +1,6 @@
 {
   "name": "dtp",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Material Design Date-Time Picker",
   "keywords": [
     "date picker",
@@ -14,11 +14,19 @@
     "build": "node minify.js && cp src/* dist"
   },
   "author": "Shivam Singla",
-  "license": "ISC",
+  "license": "MIT",
   "main": "dist/dtp.min.js",
   "devDependencies": {
-    "@node-minify/clean-css": "^4.1.2",
-    "@node-minify/core": "^4.1.2",
-    "@node-minify/google-closure-compiler": "^4.1.2"
+    "@node-minify/clean-css": "^5.2.0",
+    "@node-minify/core": "^5.2.1",
+    "@node-minify/google-closure-compiler": "^5.2.1"
+  },
+  "homepage": "https://github.com/singla-shivam/material-desgin-date-time-picker#readme",
+  "bugs": {
+    "url": "https://github.com/singla-shivam/material-desgin-date-time-picker/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singla-shivam/material-desgin-date-time-picker.git"
   }
 }

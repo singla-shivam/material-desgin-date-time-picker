@@ -18,7 +18,7 @@
   "main": "dist/dtp.min.js",
   "devDependencies": {
     "@node-minify/clean-css": "^5.2.0",
-    "@node-minify/core": "^5.2.1",
+    "@node-minify/core": "^8.0.5",
     "@node-minify/google-closure-compiler": "^5.2.1"
   },
   "homepage": "https://github.com/singla-shivam/material-desgin-date-time-picker#readme",
